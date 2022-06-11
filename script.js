@@ -13,15 +13,15 @@
 
 // Generate Password
 //function generatepassword () {
-function generatePassword() {
+//function generatePassword() {
 
-if( true ) {
+//if( true ) {
 
-  return "";
-}
+  //return "";
+//}
 
 //  }
-}
+//}
 
 var variableA = false;
 
@@ -31,25 +31,24 @@ var variableC = false;
 
 var variableD = false;
 
-if( !variableA && ! !variableB) {
+if( !variableA &&  !variableB) {
   return "";
 
 
 }
 
-var myArray = [];
+//var myArray = [];
 
-var things = [1,2,4];
-var things2 = [1,2,3,5];
+//var things = [1,2,4]var things2 = [1,2,3,5];
 
 // if "special character" is true
 // combine 
 
-myArray = myArray.concat(things)
+//myArray = myArray.concat(things)
 
 // if "numbers" is true:
 
-myarray = myArray.concat(things);
+//myarray = myArray.concat(things);
 //prompt the user for their passwordLength and store it in a variable 8 to 128 characters
 
 // prompt the user if they want special characters and store it in a variable
@@ -58,9 +57,9 @@ myarray = myArray.concat(things);
 
 // DECLARE a new empty array to store the characters we want to use
 
-if() {
-  return "";
-}
+///if() {
+  //return "";
+//}
 
 // randomly select characters
 
@@ -74,6 +73,9 @@ if() {
 
 
 // see@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/concat
+
+
+
 
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
@@ -89,3 +91,9 @@ function writePassword() {
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
+
+
+var special = ['!', '"', '#', '$', '%', '&', "'", '(', ')', '*', '+', ',', '-', '.', '/', ':', ';', '<', '=', '>', '?', '@', '[', ']', '^', '_', '`', '{', '|', '}', '~'];
+var numeric = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
+var lower = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'];
+var upper = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'];
