@@ -78,13 +78,11 @@
 // 
 
 var generateBtn = document.querySelector("#generate.btn");
+
 var special = ['!', '"', '#', '$', '%', '&', "'", '(', ')', '*', '+', ',', '-', '.', '/', ':', ';', '<', '=', '>', '?', '@', '[', ']', '^', '_', '`', '{', '|', '}', '~'];
 var numeric = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'];
 var lower = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'];
 var upper = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'];
-
-
-
 
 
 function generatePassword() {
@@ -100,9 +98,9 @@ return; }
 
 var specialCharacter = confirm("Click OK to include special characters");
 
-var numericCharacter = confirm("click ok to include numbers 0-9");
+var numericCharacter = confirm("Click ok to include numbers 0-9");
 
-var lowerCharacter = confirm("click ok to include lower case letters");
+var lowerCharacter = confirm("Click ok to include lower case letters");
 
 var upperCharacter = confirm("Click ok to include capital letters");
 // Assignment Code
@@ -121,7 +119,14 @@ if (numericCharacter) {
   resultArray.push(numeric[Math.floor(Math.random()*numeric.length)])
 }
 
-var remainingChracters = passwordLength - resultArray.length
+if (lowerCharacter) {
+  userCharacter = userCharacter.concat(lower)
+  resultArray.push(lower[Math.floor(Math.random()*lower.length)])
+}
+
+
+
+var remainingCharacters = passwordLength - resultArray.length
 
 for (var i = 0; i < remainingCharacters; i++){
 resultArray.push(userCharacter[Math.floor(Math.random()*userCharacter.length)])
