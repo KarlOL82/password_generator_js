@@ -1,6 +1,6 @@
 
 
-//do while loop after code finished  (optional)
+//TODO add while loop after code finished  (optional)
 // 
 
 var generateBtn = document.querySelector("#generate.btn");
