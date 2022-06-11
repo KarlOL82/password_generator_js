@@ -66,7 +66,7 @@ for (var i = 0; i < remainingCharacters; i++){
 resultArray.push(userCharacter[Math.floor(Math.random()*userCharacter.length)])
 }
 
-//
+// creates user password
 return resultArray.join("")
 
 } 
