@@ -11,7 +11,8 @@ function generatePassword() {
 
   //define and validate length of password
  var passwordLength = parseInt(prompt("Choose password length. Must be 8 to 128 characters"));
-    
+ 
+ 
  if (passwordLength < 8 || passwordLength > 128)
     { alert("Invalid entry. Please choose between 8 and 128 characters")   
  return; }
@@ -29,9 +30,9 @@ var lowerCharacter = confirm("Click ok to include lower case letters");
 
 var upperCharacter = confirm("Click ok to include upper case letters");
 
-// stores characters from selected arrays
+// randomized characters selected from available characters based on desired length of password
 var resultArray = [];
-
+// all available characters from each chosen array combined here
 var userCharacter = [];
 // code selects characters from the selected arrays
 if (specialCharacter) {
@@ -56,11 +57,11 @@ if (upperCharacter) {
 
 var remainingCharacters = passwordLength - resultArray.length
 
-for (var i = 0; i < remainingCharacters; i++){
+for (var i = 0; i < remainingCharacters; i++) {
 resultArray.push(userCharacter[Math.floor(Math.random()*userCharacter.length)])
 }
 
-// creates user password
+// creates user password as a string that is not separated by anything
 return resultArray.join("")
 
 } 
