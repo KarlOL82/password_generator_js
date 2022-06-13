@@ -15,7 +15,7 @@ The page uses Javascript functions to execute the generation of the password onc
 
 Javascript is an extremely versatile coding language with many uses and functions to discover.
 
-The syntax can be tricky, practice will be paramount to successfully learning to use Javascript successfully.
+The syntax can be tricky, practice will be paramount to successfully learning to use Javascript effectively.
 
 Sequence is very important. the correct code executed in the wrong order will not produce the desired effect.
 
