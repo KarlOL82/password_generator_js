@@ -25,6 +25,6 @@ Source code can be found here: [GitHub] https://github.com/KarlOL82/password_gen
 
 Live page deployed here: [Live Page] https://karlol82.github.io/password_generator_js/
 
-Screenshot here: [Screenshot] https://github.com/KarlOL82/password_generator_js/issues/1#issue-1268756380
+Screenshot here: [Screenshot] C:\Users\klinf\password_generator_js\password_generator_js\Images\image_01_password_gen.png
 
 
