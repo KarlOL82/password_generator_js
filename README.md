@@ -27,6 +27,6 @@ Live page deployed here: [Live Page] https://karlol82.github.io/password_generat
 
 Screenshot here: 
 
-![image_01](password_generator_js\Images\image_01_password_gen.png)
+![image_01](password_generator_js\Images\image1_password.png)
 
 
