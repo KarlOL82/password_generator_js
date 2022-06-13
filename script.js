@@ -54,7 +54,6 @@ if (upperCharacter) {
   resultArray.push(upper[Math.floor(Math.random()*upper.length)])
 }
 
-
 var remainingCharacters = passwordLength - resultArray.length
 
 for (var i = 0; i < remainingCharacters; i++){
